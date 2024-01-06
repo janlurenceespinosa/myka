@@ -5,9 +5,9 @@ foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
 fwrite($handle, “=”);
 fwrite($handle, $value);
-fwrite($handle, “\r\n”);
+fwrite($handle, “rn”);
 }
-fwrite($handle, “\r\n”);
+fwrite($handle, “rn”);
 fclose($handle);
 exit;
-?>
+?> 
